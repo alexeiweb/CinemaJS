@@ -1,5 +1,5 @@
 import slideMenu from './menu.js';
-import renderVideo from './rendervideo.js';
+import renderVideo from './renderVideo.js';
 import menuLink from './menuLink.js';
 
 slideMenu({

@@ -5,7 +5,6 @@ const renderCard = data => {
   listCard.textContent = '';
 
   const cards = data.map((item, index) => {
-    console.log(item);
   
     const card = document.createElement('li');
     card.className = 'other-films__item';
@@ -26,11 +25,7 @@ const renderCard = data => {
 
   });
 
-  console.log(cards);
-
-  listCard.append(...cards);
-
-  
+  listCard.append(...cards);  
 
 };
 
