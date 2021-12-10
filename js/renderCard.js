@@ -1,6 +1,6 @@
 const listCard = document.querySelector('.other-films__list');
 
-const renderCard = (data) => {
+const renderCard = data => {
 
   listCard.textContent = '';
 
