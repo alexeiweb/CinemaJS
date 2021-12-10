@@ -3,7 +3,8 @@ import renderCard from "./renderCard.js";
 
 const filmWeek = document.querySelector('.film-week');
 
-const firstRender = (data, { key }) => {
+const firstRender = (data, { keyVideo }) => {
+  const key = keyVideo?.key;
   const {
     vote_average,
     backdrop_path,
@@ -27,6 +28,7 @@ const firstRender = (data, { key }) => {
         ''}      
     </div>
             `;
+            
 }
 
 const renderVideo = async () => {
