@@ -15,7 +15,6 @@ const firstRender = data => {
       <a class="film-week__watch-trailer tube" href="https://youtu.be/V0hagz_8L3M" aria-label="смотреть трейлер"></a>
     </div>
             `;
-
 }
 
 const renderVideo = async () => {
